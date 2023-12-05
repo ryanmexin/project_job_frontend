@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: "vendor/Fonts/CabinetGrotesk-Extralight.woff";
+}
+
+.main {
+  padding-bottom: 150px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.main__title{
+  font-family: "Cabinet Grotesk";
+  font-weight: bold;
+}
+
+.search_bar {
+  margin-top: 20px; /* Adjust as needed */
+  display: flex; 
+  align-items: center;
+}
+
+.search-bar__input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px; /* Adjust as needed */
+  flex-grow: 1; /* Allow the input to grow and take up available space */
+}
+
+.search-bar__buttons {
+  gap: 2px;
+  display: flex;
+  align-items: row;
+}
+
+.search-bar__button {
+  padding: 10px 15px;
+  background-color: rgba(47, 113, 229, 1);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.search-bar__button:hover {
+  background-color: #45a049;
+}
+
+.card_items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1360px;
+  width: 100%;
+  padding-top: 34px;
+}
+
+/* Media query for screens less than 480px */
+@media screen and (max-width: 480px) {
+  
+  .search-bar__buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Align buttons to the start */
+  }
+
+  .search-bar__button {
+    margin-right: 0; /* Remove right margin for vertical layout */
+    margin-bottom: 5px; /* Add bottom margin for vertical layout */
+  }
+}

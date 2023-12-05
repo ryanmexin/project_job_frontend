@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: "vendor/Fonts/CabinetGrotesk-Regular.woff";
+}
+
+.App {
+  text-align: center;
+}

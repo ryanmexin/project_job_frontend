@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Cabinet Grotesk";
+  src: "vendor/Fonts/CabinetGrotesk-black.woff";
+}
+
+
+.about__container {
+    padding: 20px;
+    border: 3px solid rgba(47, 113, 229, 1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    font-family: "Cabinet Grotesk";
+  }
+  
+  .about__divider {
+    border: 0;
+    border-top: 3px solid rgba(47, 113, 229, 1);
+    margin: 20px 0;
+  }
+  
+  .about__name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .about__skills-list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .about__skills-list li {
+    margin-bottom: 5px;
+  }
+  
+  .about__information {
+    margin-top: 20px;
+  }
+  
