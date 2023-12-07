@@ -1,0 +1,130 @@
+  .modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal__content {
+    background-color: white;
+    max-width: 496px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    
+  }
+  
+  .modal__content-form {
+    height: 436px;
+    padding: 34px 36px;
+  }
+  
+  .modal__close {
+    background-image: url("../../images/close.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    height: 20px;
+    width: 20px;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .modal__close:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+
+  
+  .modal__title-form {
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    /* font-family: "Cabinet Grotesk", sans-serif; */
+  }
+  
+  .modal__children {
+    width: 100%;
+    max-width: 440px;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding-top: 60px;
+    
+  }
+
+  .modal__input{
+    width: 100%;
+    border: 1px black solid;
+    border-radius: 30px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Cabinet Grotesk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 8px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 30px;
+  border-color:  rgba(47, 113, 229, 1);
+  }
+  
+
+  
+  .modal__redirect-button {
+    font-family: "Cabinet Grotesk", sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+    border-color: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-width: 0;
+    border-radius: 4px;
+    margin-top: 32px;
+  }
+
+  .modal__redirect-button:hover{
+    color: rgba(47, 113, 229, 1);
+  }
+
+ 
+
+
+.modal__form-button {
+  border-radius: 20px;
+  width: 124px;
+  height: 36px;
+  left: 28px;
+  bottom: 36px;
+  border: 4px, solid;
+  border-color: rgba(47, 113, 229, 1);
+  color: black;
+  cursor: pointer;
+}
+  
+  .modal__form-button:hover {
+    background: rgba(47, 113, 229, 1);
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust margin for smaller screens */
+    .header__nav {
+      margin-left: 10px;
+    }
+  }
+  
+  
+  
